@@ -6,13 +6,13 @@ input border #b3b3b3
 #f2f2f2
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -24,7 +24,8 @@ body {
   margin: 130px auto;
 }
 
-.select-btn, .options li {
+.select-btn,
+.options li {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -37,13 +38,11 @@ body {
   padding: 0 20px;
   border-radius: 7px;
   background-color: #fff;
-
 }
 
 .select-btn i {
   font-size: 31px;
   transition: transform 0.25s linear;
-
 }
 
 .wrapper.active .select-btn i {
@@ -63,7 +62,7 @@ body {
 }
 
 .content .search {
-  position: relative; 
+  position: relative;
 }
 
 .search i {
@@ -80,7 +79,7 @@ body {
   padding: 0 15px 0 43px;
   border: 1px solid #b3b3b3;
   border-radius: 5px;
-  outline: none
+  outline: none;
 }
 
 .content .options {
@@ -91,7 +90,7 @@ body {
 }
 
 .options::-webkit-scrollbar {
-  width: 7px;
+  width: 8px;
 }
 .options::-webkit-scrollbar-track {
   background: #f1f1f1;
@@ -102,6 +101,10 @@ body {
   border-radius: 25px;
 }
 
+.options::-webkit-scrollbar-thumb:hover {
+  cursor: grab !important;
+}
+
 .options li {
   height: 50px;
   padding: 0 13px;
@@ -109,7 +112,7 @@ body {
   border-radius: 5px;
 }
 
-.options li:hover, li.selected {
+.options li:hover,
+li.selected {
   background: #f2f2f2;
-
 }

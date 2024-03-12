@@ -61,6 +61,7 @@ body {
 .carousel::-webkit-scrollbar {
   display: none;
 }
+
 .carousel :where(.card, .img) {
   display: flex;
   align-items: center;

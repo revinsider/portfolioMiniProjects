@@ -1,0 +1,2 @@
+- min 1000 gap between two prices
+- define steps
